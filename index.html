@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+	<link rel="stylesheet" href="css/media.css">
+	<title>Document</title>
+</head>
+<body>
+	<div class="container">
+		<div class="header clearfix">
+			<a href="#" class="logo"><img src="img/logo.png" alt="mountains" width="117" height="27"></a>
+			<div class="nav-btn not-active" id="nav-btn"><span></span></div>
+			<ul class="nav" id="nav">
+				<li><a href="#main_pic">main slide</a></li>
+				<li><a href="#gallery_flex">gallery</a></li>
+				<li><a href="#bottom">Clients say</a></li>
+				<li><a href="#contacts">contacts</a></li>
+			</ul>
+			<a href="#" class="call" id="go">call us</a>
+		</div>
+	</div><!-- container -->
+	<div class="main_pic" id="main_pic"><img src="upload/mainpic.jpg" alt="" width="1920" height="699"></div>
+	<div class="container">
+		<h3>Gallery</h3>
+		<div class="gallery_flex" id="gallery_flex">
+			<div class="pic_wrap"><img src="upload/gallery1.jpg" alt="" width="360" height="243"></div>
+			<div class="pic_wrap"><img src="upload/gallery2.jpg" alt="" width="360" height="243"></div>
+			<div class="pic_wrap"><img src="upload/gallery3.jpg" alt="" width="360" height="243"></div>
+			<div class="pic_wrap"><img src="upload/gallery4.jpg" alt="" width="360" height="243"></div>
+			<div class="pic_wrap"><img src="upload/gallery5.jpg" alt="" width="360" height="243"></div>
+			<div class="pic_wrap"><img src="upload/gallery6.jpg" alt="" width="360" height="243"></div>
+		</div>
+	</div><!-- container -->
+	<div class="logos">
+		<div class="container">
+			<div class="logos_flex">
+				<div class="logo_box"><img src="img/slack.png" alt=""></div>
+				<div class="logo_box"><img src="img/adobe.png" alt=""></div>
+				<div class="logo_box"><img src="img/google.png" alt=""></div>
+				<div class="logo_box"><img src="img/facbook.png" alt=""></div>
+				<div class="logo_box"><img src="img/spotify.png" alt=""></div>
+				<div class="logo_box"><img src="img/nike.png" alt=""></div>
+			</div>
+		</div>
+	</div><!-- logos -->
+	<div class="bottom" id="bottom">
+		<div class="container">
+			<h3>our Clients say</h3>
+			<div class="clients_flex">
+				<div class="clients_box"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do  enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse </p>
+					<div class="info"><div class="client_pic"><img src="upload/client1.png" alt=""></div><div class="name">Pavliv Yaroslav <span>Web designer</span></div></div></div>
+					<div class="clients_box"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do  enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse </p>
+						<div class="info"><div class="client_pic"><img src="upload/client2.png" alt=""></div><div class="name">John Scott <span>The Fringe</span></div></div></div>
+					</div>
+					<form id="contacts">
+						<p>CONTACTS</p>
+						<span>Sign up for our newsletter to receive updates</span>
+						<input type="text" placeholder="Name">
+						<input type="number" placeholder="Phone">
+						<input type="email" placeholder="E-mail">
+						<button>SEND</button>
+					</form>
+					<form id="modal_form">
+						<p>CONTACTS</p>
+						<span>Sign up for our newsletter to receive updates</span>
+						<input type="text" placeholder="Name">
+						<input type="number" placeholder="Phone">
+						<input type="email" placeholder="E-mail">
+						<button>SEND</button>
+					</form>
+				</div>
+			</div>
+			<div id="overlay"></div>
+			<script src="vendor/jquery-1.12.4.min.js"></script>
+			<script src="js/menu.js"></script>
+			<script src="js/links.js"></script>
+			<script src="js/modal.js"></script>
+		</body>
+		</html>

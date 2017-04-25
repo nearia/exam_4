@@ -1,0 +1,224 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	color: #bcbcbc;
+	background: #fff; 
+	font-size: 18px;  
+	line-height: 1.3; 
+	min-width: 320px;
+}
+.container	{
+	min-width: 320px;
+	max-width: 1170px;
+	margin: 0 auto;
+}
+.header {
+	position: relative;
+}
+a.logo {
+	position: absolute;
+	top: 38%;
+	left: 3%;
+}
+.nav {
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	width: 65%;
+	margin-left: 18%;
+}
+.nav li {
+	display: inline-block;
+	list-style: none;
+	margin: 0 2.7% 3.5% 0;
+}
+.nav li a {
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 12px;
+	line-height: 29px;
+	color: #9daeb6;
+	display: inline-block;
+	font-weight: 700;
+	padding: 46% 0 0%;
+	border-bottom: 2px solid #fff;
+}
+.nav li a:hover {
+	border-bottom: 2px solid #36aeea;
+}
+a.call {
+	float: right;
+	border: 3px solid #36aeea;
+	border-radius: 3px;
+	text-decoration: none;
+	color: #36aeea;
+	text-transform: uppercase;
+	font-size: 12px;
+	font-weight: 700;
+	padding: 1.1% 4.3%;
+	margin: 2.2% 1% 0 0;
+}
+.main_pic img {
+	width: 100%;
+	height: auto;
+}
+.main_pic {
+	margin-bottom: 8%;
+}
+h3 {
+	font-weight: 700;
+	text-transform: uppercase;
+	text-align: center;
+	color: #2c2e37;
+	font-size: 30px;
+	letter-spacing: 3px;
+}
+.gallery_flex {
+	display: flex;
+	flex-flow: row wrap;
+	margin: 8% 0 6%;
+}
+.gallery_flex > .pic_wrap {
+	flex: 1 0 33%;
+	max-width: 360px;
+	height: auto;
+	margin: 1.28%;
+}
+.gallery_flex > .pic_wrap img {
+	width: inherit;
+	height: auto;
+}
+.nav-btn {
+	position: absolute;
+}
+.logos {
+	background: #f8f9fa;
+}
+.logo_box {
+	display: inline-block;
+}
+
+.logos_flex {
+	display: flex;
+	flex-flow: row wrap;
+	margin: 0 0 6%;
+}
+.logo_box {
+	width: 16.5%;
+	min-width: 195px;
+	height: 180px;
+	padding: 7%;
+}
+.logos_flex > .logo_box {
+	flex: 3 0 16.5%;
+}
+.bottom {
+	background: url(../img/bot_bg.png) 0 0 no-repeat;
+	background-size: cover;
+	padding: 0 0 160px;
+}
+.clients_flex {
+	display: flex;
+	flex-flow: row wrap;
+}
+.clients_flex > .clients_box {
+	flex: 1 0 50%;
+}
+.clients_box {
+	padding: 50px 25px 0;
+	min-width: 320px;
+	position: relative;
+}
+.clients_box:before {
+	content: "";
+	position: absolute;
+	height: 22px;
+	width: 24px;
+	top: 30px;
+	left: 25px;
+	background: url(../img/comas.png) 0 0 no-repeat;
+}
+.clients_box p {
+	line-height: 33px;
+}
+.client_pic {
+	width: 65px;
+	height: 65px;
+	border-radius: 50%;
+	display: inline-block;
+	position: relative;
+}
+.info {
+	color: #36aeea;
+	font-weight: 700;
+	font-size: 16px;
+}
+.info span {
+	font-weight: 400;
+}
+.name {
+	position: absolute;
+	display: inline-block;
+	bottom: 10%;
+	left: 20%;
+}
+form {
+	width: 50%;
+	margin: 12% auto 0;
+	background: #ccd4d8;
+	border-radius: 10px;
+	padding: 30px;
+	text-align: center;
+	min-width: 320px;
+}
+form p {
+	font-size: 36px;
+	color: #36aeea;
+	font-weight: 700;
+	margin: 0;
+}
+form span {
+	font-size: 16px;
+	line-height: 29px;
+	color: #383e4a;
+}
+form input {
+	display: block;
+	width: 100%;
+	border: none;
+	border-radius: 3px;
+	margin-bottom: 20px;
+	height: 60px;
+	padding: 20px;
+	font-size: 18px;
+}
+form button {
+	width: 100%;
+	background: #36aeea;
+	color: #fff;
+	border-radius: 5px;
+	border: none;
+	text-transform: uppercase;
+	height: 60px;
+	font-size: 16px;
+}
+#overlay {
+	z-index:3; 
+	position:fixed; 
+	background-color:#000; 
+	opacity:0.8; 
+	-moz-opacity:0.8; 
+	filter:alpha(opacity=80);
+	width:100%; 
+	height:100%; 
+	top:0; 
+	left:0;
+	cursor:pointer;
+	display:none; 
+}
+#modal_form {
+	display: none;
+	z-index: 5;
+	position: fixed; 
+	top: 1% !important; 
+	left: 25%; 
+}
